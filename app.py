@@ -145,7 +145,7 @@ if submit_button:
                         else:
                             raise api_err # Raise error if all retries fail
                 
-                st.markdown("---")
+                # st.markdown("---")
                 # st.success("Blueprint Generated Successfully!")
                 
                 # Save blueprint and reset chat history for the new project in session state
